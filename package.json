@@ -18,9 +18,14 @@
   },
   "homepage": "https://github.com/victor-mele/cedula-y-seccion#readme",
   "dependencies": {
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "ts-node": "^10.9.2"
   },
   "devDependencies": {
     "@types/express": "^5.0.1"
   }
+}
+"scripts": {
+  "start": "ts-node src/index.ts",
+  "test": "echo \"Error: no test specified\" && exit 1"
 }
